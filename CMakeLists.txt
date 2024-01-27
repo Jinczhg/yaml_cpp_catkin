@@ -27,3 +27,6 @@ install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/lib/
         FILES_MATCHING PATTERN "libyaml-cpp*")
 cs_export(INCLUDE_DIRS ${CATKIN_DEVEL_PREFIX}/include
           LIBRARIES yaml-cpp0.5)
+
+cs_install()
+cs_export()
